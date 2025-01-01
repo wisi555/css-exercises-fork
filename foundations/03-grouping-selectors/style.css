@@ -1,0 +1,11 @@
+.izquierda {
+    background-color: black;
+    color: white;
+}
+.derecha {
+    background-color: yellow;
+}
+.derecha, .izquierda {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
