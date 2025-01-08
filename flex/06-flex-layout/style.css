@@ -2,9 +2,70 @@
 
 body {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(224, 224, 224);
+  padding: 16px;
+  align-items: center;
+}
+
+.right-links {
+  display: flex;
+}
+
+.left-links {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.input-and-buttons {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.buttons button {
+  margin-top: 16px;
+  padding: 8px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
 }
 
 img {
